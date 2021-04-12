@@ -1,5 +1,30 @@
 body {
+  display: flex;
+  justify-content: center;
+  
   width: 100%;
   height: 100%;
   margin: 0;
 }
+
+
+#details {
+  
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	align-content: stretch;
+  
+
+}
+#featured-property {
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+}
+
